@@ -17,7 +17,7 @@ class Estudiante{
         Estudiante();
         ~Estudiante();
         Estudiante(string carnet, string nombre, int edad, int beca);
-        virtual double pagoMatricula();
+        virtual double pagoMatricula() = 0;
         void setCostoCredito(double costoCredito);
         double getCostoCredito();
         void setCarnet(string carnet);
